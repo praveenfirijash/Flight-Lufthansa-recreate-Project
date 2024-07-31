@@ -1,0 +1,486 @@
+ <html>
+	<head>
+		<title>Advance Seat Reservation</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="C:\Users\ACER\Desktop\full stack\projects\project\seat reservation.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!---------------------------Navbar Start------------------------>
+		
+		<section>
+				<nav class="navbar navbar-inverse navcol"> <!--navcol (navbar color)-->
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a href="file:///C:/Users/Dhamo/OneDrive/Desktop/Html/Lufthansa.html"><img src="C:\Users\ACER\Downloads\WhatsApp Image 2024-07-11 at 3.34.39 PM.jpeg" width="200px"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav navbar-right ">
+								<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\Lufthansa.html">Home</a></li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">Book & Prepare</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>Flights</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\flight Search (2).html">Book Flights</a></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\at the airport 1.html">At The Airport</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">My Bookings</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>Manage</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\seat reservation.html">Seat Reservation</a></li>
+										<li><a href="#">Manage Bookings</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">Discover Lufthansa</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>About Lufthansa</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\pro1.1.html">Check-In</a></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\pro1.2.html">Explore The World</a></li>
+									</ul>
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+		</section>
+		
+		<!---------------------------Navbar Ends------------------------>
+		
+		<!-------------------------Home page First Banner-------------------------->
+			
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h1 style="color:#05164d;"><b>Advance seat reservation</b></h1>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+					<p class="text-muted hm1bpara"><!--Home page -->
+						<big>Whether it’s a seat by the window, the aisle or with extra leg room: we offer you the option of reserving seats for yourself and your travelling companions in advance or at check-in.</big>
+					</p>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hm1img">
+					<img src="https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-613144735-6095058.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h2 style="color:#05164d; font-family: Montserrat, sans-serif;">How do I reserve a seat?</h2>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+					<p class="text-muted hm1bpara"><!--Home page -->
+					<big>You can book your seat either right away at the time of booking or later on. You can reserve a seat via My bookings up to 52 hours prior to departure. You can also select your seat at check-in.</big>
+					</p>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+					<button type="button" class="btn btn-warning hm1btn"><b>Reserve a Seat Now</b></button><!--Home page 1 button-->
+				</div>
+			</div>
+		</div>
+		
+		<!-------------------------Home page First Banner-------------------------->
+		
+		<!-------------------------Home page tab Starts-------------------------->
+			
+			<div class="container">
+				<ul class="nav nav-tabs hmtabs"><!--Home page tabs-->
+					<li class="active"><a data-toggle="tab" href="#economyclass" class="hmtabct"><big>Economy Class</big></a></li><!--Home page tabs-->
+					<li><a data-toggle="tab" href="#pecls" class="hmtabct"><big>Premium Economy Class</big></a></li><!--Home page tabs-->
+					<li><a data-toggle="tab" href="#bcls" class="hmtabct"><big>Business Class</big></a></li><!--Home page tabs-->
+					<li><a data-toggle="tab" href="#fcls" class="hmtabct"><big>First Class</big></a></li><!--Home page tabs-->
+				</ul>
+				<div class="tab-content">
+					<div id="economyclass" class="tab-pane fade in active">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h2 style="color:#05164d; font-family: Montserrat, sans-serif;">Classic Seat</h2>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<p class="text-muted hm1bpara">
+								<big>Decide for yourself where you want to sit. Whether it’s a window or an aisle seat, we offer you the option of reserving your seat in advance. The price of a Classic Seat depends on the length of your flight and destination, and is free of charge on some fares.</big>
+							</p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  hm1img">
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_variations/c-161365807-seat_reservation_classicseat_economy.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="panel-group"><!--home page panel-->
+								<div class="panel hmpanl">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" href="#a1"><b>Fees per person and route</b></a>&nbsp&nbsp<span class="caret"></span>
+										</h4>
+									</div>
+									<div id="a1" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table table-hover">
+												<thead>
+													<tr>
+														<th>Flight segment</th><th>Price<sup>1</sup></th><th>Destinations (between Europe and ...)</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>	
+														<td>Domestic flights and European short haul</td>
+														<td>from EUR 14</td>
+														<td>Austria, Belgium, Germany, Switzerland, France, United Kingdom, Italy, Netherlands, Denmark, Poland, Hungary, Czech Republic, Ireland, Greece, Croatia</td>
+													</tr>
+													<tr>	
+														<td>European long haul (incl. the Middle East, North Africa, Canary Islands and Cyprus)</td>
+														<td>from EUR 16</td>
+														<td>Armenia, Azerbaijan, Cyprus, Algeria, Georgia, Morocco, Tunisia, Canary Islands, Jordan, Lebanon, Iraq, Israel, Egypt and Cape Verde</td>
+													</tr>
+													<tr>	
+														<td>Intercontinental routes</td>
+														<td>from EUR 28</td>
+														<td>Nigeria, Equatorial Guinea, Iran, United Arab Emirates, Oman, Qatar, Bahrain, Kuwait, Saudi Arabia, USA/Canada east coast, USA/Canada west coast, Angola, Kazakhstan, India, Kenya, Tanzania, Maldives, Seychelles, Sri Lanka, China, Thailand, Singapore, Hong Kong, Colombia, Argentina, Brazil, Mexico, Venezuela, Panama City, Costa Rica, South Africa, Mauritius, Japan, South Korea, Vietnam, Namibia, Cuba</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h2 style="color:#05164d; font-family: Montserrat, sans-serif;">Preferred Zone Seat</h2>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<p class="text-muted hm1bpara">
+								<big>As a rule, the preferred seating area is located in the front part of Economy Class, directly behind Business or Premium Economy Class. These seats enable you to leave the aircraft quickly after landing, making your travel even easier and more flexible. The price for a Preferred Zone Seat depends on the length of your flight and destination and is free of charge on some fares.</big>
+							</p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  hm1img">
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_variations/c-295610916-seat_reservation_preferredzone_economy.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="panel-group"><!--home page panel-->
+								<div class="panel hmpanl">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" href="#a2"><b>Fees per person and route</b></a>&nbsp&nbsp<span class="caret"></span>
+										</h4>
+									</div>
+									<div id="a2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table table-hover">
+												<thead>
+													<tr>
+														<th>Flight segment</th><th>Price<sup>1</sup></th><th>Destinations (between Europe and ...)</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>	
+														<td>Domestic flights and European short haul</td>
+														<td>from EUR 20</td>
+														<td>Austria, Belgium, Germany, Switzerland, France, United Kingdom, Italy, Netherlands, Denmark, Poland, Hungary, Czech Republic, Ireland, Greece, Croatia</td>
+													</tr>
+													<tr>	
+														<td>European long haul (incl. the Middle East, North Africa, Canary Islands and Cyprus)</td>
+														<td>from EUR 23</td>
+														<td>Spain, Portugal, Russia, Norway, Finland, Iceland, Turkey, Estonia, Latvia, Sweden, Armenia, Azerbaijan, Cyprus, Algeria, Georgia, Morocco, Tunisia, Canary Islands, Jordan, Lebanon, Iraq, Israel, Egypt, Cape Verde</td>
+													</tr>
+													<tr>	
+														<td>Intercontinental routes</td>
+														<td>from EUR 44</td>
+														<td> 44	Nigeria, Equatorial Guinea, Iran, United Arab Emirates, Oman, Qatar, Bahrain, Kuwait, Saudi Arabia, USA/Canada east coast, USA/Canada west coast, Angola, Kazakhstan, India, Kenya, Tanzania, Maldives, Seychelles, Sri Lanka, China, Thailand, Singapore, Hong Kong, Colombia, Argentina, Brazil, Mexico, Venezuela, Panama City, Costa Rica, South Africa, Mauritius, Japan, South Korea, Vietnam, Namibia, Cuba</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h2 style="color:#05164d; font-family: Montserrat, sans-serif;">Legroom Seat</h2>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<p class="text-muted hm1bpara">
+								<big>More personal space for maximum comfort in Economy Class. Take your seat in one of the ergonomic seats and enjoy a good 7 cm more space at your seat compared to the Classic Seat. Please note that our Lufthansa Allegris seats unfortunately cannot be reserved during the flight booking at present, but only during online check-in.</big>
+							</p>
+						</div>
+						<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<button type="button" class="col-lg-5 col-md-5 col-sm-12 col-xs-12 tabbtn"><big>More Information About Lufthansa Allegris</big></button><!--Tabs Button-->
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  hm1img">
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_images/book-&-manage/eco-legroom_21x9.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="panel-group"><!--home page panel-->
+								<div class="panel hmpanl">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" href="#a3"><b>Fees per person and route</b></a>&nbsp&nbsp<span class="caret"></span>
+										</h4>
+									</div>
+									<div id="a3" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table table-hover">
+												<thead>
+													<tr>
+														<th>Flight segment</th><th>Price<sup>1</sup></th><th>Destinations (between Europe and ...)</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>	
+														<td>Intercontinental short haul</td>
+														<td>from EUR 50</td>
+														<td>Nigeria, Ethiopia, Iran, United Arab Emirates, Oman, Qatar, Bahrain, Kuwait and Saudi Arabia…</td>
+													</tr>
+													<tr>	
+														<td>Intercontinental medium haul</td>
+														<td>from EUR 60</td>
+														<td>USA/Canada East Coast, Angola, India, Kazakhstan, Kenya, Maldives and the Seychelles...</td>
+													</tr>
+													<tr>	
+														<td>ntercontinental long haul</td>
+														<td>from EUR 80</td>
+														<td>Western USA/Canada, China, Thailand, Singapore, Hong Kong, Columbia, Argentina, Brazil, Mexico, South Africa, Mauritius, Namibia, Japan, South Korea and Vietnam…</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h2 style="color:#05164d; font-family: Montserrat, sans-serif;">Extra Legroom Seat</h2>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+							<p class="text-muted hm1bpara">
+								<big>We offer you the option of reserving seats with more legroom on almost all aircraft types. Some of these seats are located in the emergency exit rows, so special conditions apply when booking these seats (see below). The price for an Extra Legroom Seat depends on the length of your flight and destination.</big>
+							</p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  hm1img">
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_variations/c-1692107345-seat_reservation_extralegroom_economy.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="panel-group"><!--home page panel-->
+								<div class="panel hmpanl">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" href="#a4"><b>Fees per person and route</b></a>&nbsp&nbsp<span class="caret"></span>
+										</h4>
+									</div>
+									<div id="a4" class="panel-collapse collapse">
+										<div class="panel-body">
+											<table class="table table-hover">
+												<thead>
+													<tr>
+														<th>Flight segment</th><th>Price<sup>1</sup></th><th>Destinations (between Europe and ...)</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>	
+														<td>Domestic flights and European short haul</td>
+														<td>from EUR 29</td>
+														<td>Austria, Belgium, Germany, Switzerland, France, United Kingdom, Italy, Netherlands, Denmark, Poland, Hungary, Czech Republic, Ireland, Greece, Croatia</td>
+													</tr>
+													<tr>	
+														<td>European long-haul flights</td>
+														<td>from EUR 35</td>
+														<td>Spain, Portugal, Russia, Norway, Finland, Iceland, Turkey, Estonia, Latvia, Sweden</td>
+													</tr>
+													<tr>	
+														<td>Middle East, North Africa, Caucasus, Cyprus and Canary Islands</td>
+														<td>from EUR 46</td>
+														<td>Armenia, Azerbaijan, Cyprus, Algeria, Georgia, Morocco, Tunisia, Canary Islands, Jordan, Lebanon, Iraq, Israel, Egypt and Cape Verde</td>
+													</tr>
+													<tr>	
+														<td>Intercontinental routes</td>
+														<td>from EUR 66</td>
+														<td>Nigeria, Equatorial Guinea, Iran, United Arab Emirates, Oman, Qatar, Bahrain, Kuwait, Saudi Arabia, USA/Canada east coast, USA/Canada west coast, Angola, Kazakhstan, India, Kenya, Tanzania, Maldives, Seychelles, Sri Lanka, China, Thailand, Singapore, Hong Kong, Colombia, Argentina, Brazil, Mexico, Venezuela, Panama City, Costa Rica, South Africa, Mauritius, Japan, South Korea, Vietnam, Namibia, Cuba</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="pecls">
+					</div>
+					<div id="bcls">
+					</div>
+					<div id="fcls">
+					</div>
+				</div>
+			</div>
+			
+			<!-------------------------Home page tab Ends-------------------------->
+			
+			
+			<div class="container-fluid hmdd"><!--home page drop down-->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h3 style="color:#05164d; font-family: Montserrat, sans-serif;">Further information and details about advance seat reservations</h3>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="panel-group" id="accordion">
+								<div class="panel hmgrppanl">
+									<div class="panel-heading">
+										<h4 class="panel-title hmddti">
+											<a data-toggle="collapse" data-parent="#accordion" href="#b1" >
+											What are the conditions for reserving a seat?</a><span class="caret"></span>
+										</h4>
+									</div>
+									<div id="b1" class="panel-collapse collapse ">
+										<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.</div>
+									</div>
+								</div>
+								<div class="panel hmgrppanl">
+									<div class="panel-heading">
+										<h4 class="panel-title hmddti">
+											<a data-toggle="collapse" data-parent="#accordion" href="#b2">
+											Special conditions for seats by the emergency exits</a><span class="caret"></span>
+										</h4>
+									</div>
+									<div id="b2" class="panel-collapse collapse">
+										<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										commodo consequat.</div>
+									</div>
+								</div>
+								<div class="panel hmgrppanl">
+									<div class="panel-heading">
+										<h4 class="panel-title hmddti">
+											<a data-toggle="collapse" data-parent="#accordion" href="#b3" >
+											Those accompanying HON Circle Members and Senators</a><span class="caret"></span>
+										</h4>
+									</div>
+									<div id="b3" class="panel-collapse collapse">
+										  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										  commodo consequat.</div>
+									</div>
+								</div>
+								<div class="panel hmgrppanl">
+									<div class="panel-heading">
+										<h4 class="panel-title hmddti">
+											<a data-toggle="collapse" data-parent="#accordion" href="#b4" >
+											Those accompanying HON Circle Members and Senators</a><span class="caret"></span>
+										</h4>
+									</div>
+									<div id="b4" class="panel-collapse collapse">
+										  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										  commodo consequat.</div>
+									</div>
+								</div>
+								<div class="panel hmgrppanl">
+									<div class="panel-heading">
+										<h4 class="panel-title hmddti">
+											<a data-toggle="collapse" data-parent="#accordion" href="#b5">
+											Those accompanying HON Circle Members and Senators</a><span class="caret"></span>
+										</h4>
+									</div>
+									<div id="b5" class="panel-collapse collapse">
+										  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										  commodo consequat.</div>
+									</div>
+								</div>
+								<div class="panel hmgrppanl">
+									<div class="panel-heading">
+										<h4 class="panel-title hmddti">
+											<a data-toggle="collapse" data-parent="#accordion" href="#b6" >
+											Those accompanying HON Circle Members and Senators</a><span class="caret"></span>
+										</h4>
+									</div>
+									<div id="b6" class="panel-collapse collapse">
+										  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+										  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+										  minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+										  commodo consequat.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--------------------------Footer Starts---------------------------------->
+			
+			<section class="hmfoot"><!--Home page Footer-->
+				<footer class="fotcolor"><!--Footer Color-->
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fot1row"><!--footer first row-->
+								<form>
+									<div class="col-sm-3">
+										<input type="text" class="form-control fotform " placeholder="Enter Search Term"><!--footer form-->
+									</div>
+								</form>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Frequently visited pages</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn" data-target="#hi">View & Amend Flights</button><br><!--footer button-->
+								<a href="https://www.w3schools.com/css/css_link.asp" id="hi"></a>
+								<button type="button" class="btn btn-default fotbtn">Offers & Destination</button><br>
+								<button type="button" class="btn btn-default fotbtn">Baggage</button><br>
+								<button type="button" class="btn btn-default fotbtn">Check-In</button><br>
+								<button type="button" class="btn btn-default fotbtn">At The Airport</button><br>
+								<button type="button" class="btn btn-default fotbtn">travel Briefing</button><br>
+								<button type="button" class="btn btn-default fotbtn">Destinationns</button><br>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Customer services</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn">Travel ID Account</button><br>
+								<button type="button" class="btn btn-default fotbtn">Miles & More</button><br>
+								<button type="button" class="btn btn-default fotbtn">Help & Contact</button><br>
+								<button type="button" class="btn btn-default fotbtn">Feedback</button><br>
+								<button type="button" class="btn btn-default fotbtn">Newsletter</button><br>
+								<button type="button" class="btn btn-default fotbtn">Accessible Travel</button><br>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Lufthansa Group</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn">jobs & Careers</button><br>
+								<button type="button" class="btn btn-default fotbtn">Aviation Group</button><br>
+								<button type="button" class="btn btn-default fotbtn">Lufthansa Group Airlines</button><br>
+								<button type="button" class="btn btn-default fotbtn">Press</button><br>
+								<button type="button" class="btn btn-default fotbtn">Lufthansa partners</button><br>
+								<button type="button" class="btn btn-default fotbtn">Sustainability</button><br>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Corporate customers</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn">For Travel Agent</button><br>
+								<button type="button" class="btn btn-default fotbtn">For Coporate Customer</button><br>
+								<button type="button" class="btn btn-default fotbtn">Coporate Bonus Program</button><br>	
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+			
+			<!--------------------------Footer Ends---------------------------------->
+		
+		
+		
+		

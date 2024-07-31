@@ -1,0 +1,78 @@
+#f1
+{
+	border-style: hidden outset outset hidden;
+	border-color: black;
+	border-width:5px solid black;
+	
+}
+.btn-primary{
+	padding: 10px 40px;
+	background-color:#ffad00;
+	border-color:#ffad00;
+	color: black;
+}
+.i1{
+margin-left:600px;
+margin-top:-180px;
+}
+.navcol{
+	padding:15px;
+	background-color:#001a4d;
+	color:white;
+	font-weight:bold;
+}
+.navbar-inverse .navbar-nav >li >a {
+	color:white;
+	font-weight: bold;
+}
+.hmfoot{
+	margin-top:40px;
+}
+.fotcolor{
+	background-color:#05164D;
+}
+.fot1row{
+	padding-top:40px;
+}
+.fotform{
+	border:hidden;
+}
+.fot4head{
+	padding-top:30px;
+}
+.fothead{
+	font-family: Arvo, serif; 
+	color:white;
+	border-bottom:solid;
+	border-color:white;
+}
+.fotbtn{
+	background-color:#05164D;
+	border:hidden;
+	font-family: Arvo, serif; 
+	color:white;
+}
+.fotbtn:hover{
+	background-color:#05164D;
+	border:hidden;
+	color:white;
+}
+body {
+    background-color: #fff;
+    color: #05164d;
+    font-family: LufthansaText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+p {
+    font-family: LufthansaText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+	color:#000000;
+}
+a {
+    color: #52627c;
+    font-weight: 700;
+	display: inline-block;
+    font-family: LufthansaText, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+}

@@ -1,0 +1,153 @@
+.navcol{/*<!--navcol (navbar color)-->*/
+	padding:15px;
+	background-color:#05164d;
+	color:white;
+	font-weight:bold;
+}
+.navbar-inverse .navbar-nav >li >a {
+	color:white;
+	font-weight: bold;
+}
+.hmtabs{/*<!--hmtabs (home image tab)-->*/
+	background-color:white;
+	box-shadow:0px 0px 5px gray;
+	position:relative;
+	bottom:30px;
+}
+.hmtabct{/*<!--hmtabct (home image tab content)-->*/
+	padding:10px;
+}
+.flicnt1{/*<!--flicnt2 (flight content 1)-->*/
+	padding-top:15px;
+}
+.hmtabct2{
+	color:gray;
+	font-family: Arvo, serif; 
+}
+.flicntitem{/*<!--flicntitem (flight content item)-->*/
+	font-weight:bold;
+	padding-left:40px;
+}
+.tabdrd{/*<!--tabdrd (tab dropdown)*/
+	border:none;
+	font-weight:bold;
+}
+.flicnt2{/*<!--flicnt2 (flight content 2)-->*/
+	padding:10px;
+}
+.flin{/*<!--flin flight input-->*/
+	border:hidden;
+	border-right:solid;
+	border-bottom:solid;
+	border-color:gray;
+	border-width:2px;
+}
+.tblt{/*<!--tblt tab last-->*/
+	padding-bottom:40px;
+	font-family: Arvo, serif; 
+	color:#05164D;
+}
+
+.httabs{/*<!--hotel tabs-->*/
+	padding-top:40px;	
+}
+.htin{/*<!--hotel input-->*/
+	border:hidden;
+	border-right:solid;
+	border-bottom:solid;
+	border-color:gray;
+	border-width:2px;
+}
+.ddtabs{ /*<!--Drop Down tabs-->*/
+	margin-top:40px;
+}
+.ddlst{/*<!--Drop Down List-->*/
+	border:hidden;
+	border-bottom:solid;
+	border-color:black;
+	border-width:1px;
+	padding:5px;
+	width:100%;
+	background-color:white;
+	text-align:left;
+	font-weight:bold;
+}
+.ddmenu{/*<!--Drop Down Menu-->*/
+	width:100%;
+}
+.imgtabs{ /*<!--Image tabs-->*/
+ margin-top:40px;
+}
+.img4tabs{/*<!--Four Image tabs-->*/
+margin:50px;
+}
+.img4{/*<!--4 images-->*/
+	background-color:white;
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+select{
+	border:hidden;
+	border-bottom:solid;
+}
+.hmsel{/*<!--Home Page Select-->*/
+	margin-top:40px;
+}
+.hmcor{/*<!--home corousel-->*/
+	margin-top:30px;
+}
+.cordiv{/*<!--corousel division-->*/
+	box-shadow:0px 0px 3px gray;
+}
+.corimg{/*<!--corousel Image-->*/
+	padding:10px;
+}
+
+
+
+
+
+.hmcon{/*<!---home page Condition->*/
+	margin-top:30px;
+}
+.conbtn{/*<!--Condition button-->*/
+	border:hidden;
+}
+.hmmore{/*<!--home page more offer-->*/
+	margin-top:30px;
+}
+.moicon{/*<!--More Icons-->*/
+	padding-left:20px;
+}
+.hmfoot{/*<!--Home page Footer-->*/
+	margin-top:40px;
+}
+.fotcolor{/*<!--Footer Color-->*/
+	background-color:#05164D;
+}
+.fot1row{/*<!--footer first row-->*/
+	padding-top:40px;
+}
+.fotform{
+	border:hidden;
+}
+.fot4head{/*<!--footer 4 headings-->*/
+	padding-top:30px;
+}
+.fothead{/*<!--Footer heading-->*/
+	font-family: Arvo, serif; 
+	color:white;
+	border-bottom:solid;
+	border-color:white;
+}
+.fotbtn{
+	background-color:#05164D;
+	border:hidden;
+	font-family: Arvo, serif; 
+	color:white;
+}
+.fotbtn:hover{
+	background-color:#05164D;
+	border:hidden;
+	color:white;
+}

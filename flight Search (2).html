@@ -1,0 +1,422 @@
+<html>
+<title>Flight Search</title>
+	<head>
+		<meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="air.css">
+		  
+	
+	</head>
+		<body>
+			<section>
+				
+				<nav class="navbar navbar-inverse  navcol"> <!--navcol (navbar color)-->
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a href="#"><img src="C:\Users\ACER\Downloads\WhatsApp Image 2024-07-11 at 3.34.39 PM.jpeg" width="200px"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav navbar-right ">
+								<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\Lufthansa.html">Home</a></li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">Book & Prepare</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>Flights</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\flight Search (2).html">Book Flights</a></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\at the airport 1.html">At The Airport</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">My Bookings</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>Manage</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\seat reservation.html">Seat Reservation</a></li>
+										<li><a href="#">Manage Bookings</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">Discover Lufthansa</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>About Lufthansa</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\pro1.1.html">Check-In</a></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\pro1.2.html">Explore The World</a></li>
+									</ul>
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+			<!-----Head Part--->
+								<section class="head part">
+										<div class="container">
+										<div class="row">
+											<div class= "col-md-4 col-lg-4 col-xs-4 col-sm-4">
+											<nav class="nav nav bar-default">
+											<ul class="nav navbar-tabs">
+											<li><a href="#" class="a2">Home ></a></li>
+											<li><a href="#"class="active a2">Flight search</a></li>
+											</ul>
+											</nav>
+											<h2 class="a3">Flight Search<h2>
+											<div class= "col-md-8 col-lg-8 col-xs-8 col-sm-8">
+											</div>
+											</div>
+										</div>	
+										</div>
+								</section>
+								
+								
+					<!------body paart---->			
+								
+								<section class="Body part">
+										<div class="container">
+											<ul class="nav nav-tabs">
+												  <li class="active"><a data-toggle="tab" href="#home">Flights</a></li>
+												  <li><a data-toggle="tab" href="#menu1">Multi-City Flights</a></li>
+												  <li><a data-toggle="tab" href="#menu2">Hotels</a></li>
+												  <li><a data-toggle="tab" href="#menu3">Car Rentals</a></li>
+											</ul>
+											
+										<div class="tab-content b1">
+									<div id="home" class="tab-pane fade in active">
+								<form class="form-Horizontal">
+										<div class="form-group row">
+										<div class="col-xs-4">
+											<label for="f1">From</label>
+											<input class="form-control" id="f2" type="name"placeholder="Enter Destination">
+										</div>
+										</div>
+										
+										<div class="form-group">
+										<div class="col-xs-4">
+											<label for="f2">To</label>
+											<input class="form-control" id="f2" type="name"placeholder="Enter Destination">
+										</div>
+										</div>
+										<div class="form-group">
+												<div class="col-xs-1">One-Way
+												<input type="checkbox"name="a1"class="form-control">
+										</div>
+										</div>
+										<div class="form-group">
+										<div class="col-xs-2">
+												<label for="f3">Depature Date</label>
+												<input type="Date"id="f3"class="form-control">
+										</div>
+										</div>
+										<div class="form-group">
+										<div class="col-xs-2">
+												<label for="f4">Return Date</label>
+												<input type="Date"id="f"class="form-control">
+										
+										</div>
+										</div>
+											<h4>Who will be Travelling?</h4>
+										<div class="form-group">
+										<div class="col-xs-3">
+												<label for="f5">Travel Class</label>
+												<select class="form-control"id="f5">
+														<option>Economy</option>
+														<option>Premium Economy</option>
+														<option>Buisness Class</option>
+														<option>First Class</option>
+												</select>
+										</div>
+										</div>
+											<h4>Which Fare type would you Prefer?</h4>
+										<div class="form-group">
+													<input type="radio"name="a2">I would like to benefit from the best offers and will use my flights in the booked sequence.<br>
+													<input type="radio"name="a3">I would like to have the flexibility to change the sequence of my flights.<br>
+													<input type="radio"name="a4">I would like to book the highest available booking class (flexible fares allow you more flexibility in planning your trip and offer a bigger mileage credit)
+										</div>
+											
+										<div class="form-group">
+												<div class="col-xs-4">
+											<label for="f6">Do you have acess code?</label>
+											<input class="form-control" id="f6" type="name"placeholder="ACCESS CODE">
+										</div>
+										</div>
+										<div class="form-group">
+											
+												<button type="button"class="btn btn-primary btn-md-2 a8"data-toggle="Form"data-target="myform">Search Flights</button>
+										
+										</div>	
+
+								</form>
+								</div>
+					<!-----form2---->
+								<div id="menu1" class="tab-pane fade">
+								<form class="form-inline">
+										<h3>Flight</h3>
+									<div class="form-group a5">
+										<label for="name">From</label>
+										<input type="name"id="name"class="form-control"placeholder="Enter Destination">
+									</div>
+									<div class="form-group a5">
+										<label for="name">To</label>	
+										<input type="name"id="name"class="form-control"placeholder="Enter Destination">
+									</div>	
+									<div class="form-group a5">
+										<label for="Date">Depature Date</label>
+										<input type="Date"class="form-control"id="Date">
+									</div>
+									<div class="form-group a5">
+										<label for="time">Depature Time</label>
+										<input type="time"class="form-control"id="date">
+									</div>
+								</form>
+								<form class="form-inline">
+										<h3>Flight</h3>
+									<div class="form-group a5">
+										<label for="name">From</label>
+										<input type="name"class="form-control"id="name"placeholder="Enter Destination">
+									</div>
+									<div class="form-group a5">
+										<label for="name">To</label>	
+										<input type="name"class="form-control"id="name"placeholder="Enter Destination">
+									</div>	
+									<div class="form-group a5">
+										<label for="Date">Depature Date</label>
+										<input type="Date"class="form-control"id="Date">
+									</div>
+									<div class="form-group a5">
+										<label for="time">Depature Time</label>
+										<input type="time"class="form-control"id="date">
+									</div>	
+								</form>	
+										<h4>Who will Be Travelling?
+								<form class="form-horizontal">
+									<div class="form-group">
+									<div class="col-xs-4">
+											<label for="f7">Travel Class</label>
+											<select class="form-control"id="f7">
+													<option>Economy</option>
+													<option>Premium Economy</option>
+													<option>Buisness Class</option>
+													<option>First Class</option>
+											</select>		
+									</div>
+									</div>
+								</form>	
+								</form>
+								<form class="form-Horizontal">
+										<h4>Which Fare type would you Prefer?</h4><br>
+										<div class="form-group">
+													<input type="radio"name="a2">I would like to benefit from the best offers and will use my flights in the booked sequence.<br>
+													<input type="radio"name="a3">I would like to have the flexibility to change the sequence of my flights.<br>
+													<input type="radio"name="a4">I would like to book the highest available booking class (flexible fares allow you more flexibility in planning your trip and offer a bigger mileage credit)
+										</div>
+											
+										<div class="form-group">
+												<div class="col-xs-4">
+											<label for="f6">Do you have acess code?</label>
+											<input class="form-control" id="f6" type="name"placeholder="ACCESS CODE">
+										</div>
+										</div>
+										<div class="form-group">
+											
+												<button type="button"class="btn btn-primary btn-md-2 a8"data-toggle="Form"data-target="myform">Search Flights</button>
+										
+										</div>	
+
+								</form>
+								</div>
+							<!------form3---->
+							 <div id="menu2" class="tab-pane fade">
+								<form class="form-vertical">
+									<div class="form-group">
+											<div class="col-xs-4">
+											<label for="f8">Where do you want to stay?</label>
+											<input type="name"id="name f8"class="form-control"placeholder="City Name">
+									</div>
+								</form><br><br>
+								<form class="form-horizontal">
+								<form class="form-inline">
+									<div class="form-group"><br>
+										<div class="col-xs-2">
+												<label for="f9">when do you want to stay?</label>
+												<label for="f9">Date of arival</label>
+												<input type="Date"id="f9"class="form-control">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-xs-2">
+												<label for="f10">Date of Depature</label>
+												<input type="Date"id="f10"class="form-control">
+										</div>
+									</div>
+								</form>
+								</form>
+								<form class="form-inline">
+										<div class="form-group">
+										<button type="button"class="btn btn-primary btn-md-2"data-toggle="Form"data-target="myform">Search for Hotels</button>
+								</div>
+								</form>
+									</div>
+								<!--------form4--->
+								
+									<div id="menu3" class="tab-pane fade">
+							   <form class="form-inline">
+									<div class="form-group">
+										<h4>This rental car reservations are provided by<br><img src="C:\Users\ACER\Pictures\Screenshots\hertz.png"alt="logo"width="100px"><h4>
+										<label for="name">Where do you want to Rent a Car?</label>
+											<input type="name"class="form-control"id="name"placeholder="Pickup Location">
+											<input type="name"class="form-control"id="name"placeholder="Drop Location">
+									</div>
+								</form>
+								<form class="form-inline">
+									<div class="form-group a5">
+										<h4>When do you want a Car?</h4>
+										<label for="Date">Pickup Date</label>
+											<input type="Date"class="form-control"id="Date">
+											<label for="time">Pickup Time</label>
+											<input type="Time"class="form-control"id="Time">											
+									</div>
+								</form>
+								<form class="form-inline">
+									<div class="form-group a5">
+										<label for="Date">Drop-off Date</label>
+											<input type="Date"class="form-control"id="Date">
+									</div>
+									<div class="form-group a5">
+										<label for="time">Drop-off Time</label>
+											<input type="Time"class="form-control"id="Time">
+									</div>
+								</form>
+										<h4>your perefernces?</h4>
+								<form class="form-vertical">
+									<div class="form-group a5">
+										<label>Car Category</label>
+											<select class="btn-md-4">
+													<option>All</option>
+													<option>Compact</option>
+													<option>Economy</option>
+													<option>Full Size</option>
+													<option>Intermediate</option>
+													<option>Luxury</option>
+											</select>		
+									</div>
+									<div class="form-group a5">
+										<label>Car Type</label>
+											<select class="btn-md-4">
+													<option>All Car Type</option>
+													<option>Convertible</option>
+													<option>Passenger Van</option>
+													<option>Sports</option>
+													<option>Suv</option>
+													<option>Wagon/Estate</option>
+											</select>		
+									</div>
+										<h4>More Options</h4>
+										<h5>Please select your car provider and enter your discount code and loyalty card number if applicable.</h5>
+									<div class="form-group a5">
+										<label>Car Rental Company</label>
+											<select class="btn-md-4">
+													<option>All Providers</option>
+													<option>HERTZ</option>
+													<option>SIXT</option>
+													<option>EUROCAR</option>
+													
+											</select>		
+									</div>
+									<div class="form-group">
+										<input type="name"id="name"placeholder="Discount code">
+										<input type="name"id="name"placeholder="Loyalty Card Number">
+										<button type="button"class="btn btn-primary btn-md-2"data-toggle="Form"data-target="myform">Search Rental Cars</button>
+										
+									</form>
+								  </div>
+							</section>
+						<section>	
+							<div class="container">
+							<div class="row">
+							
+							<h3 class="a6">This might also be of interest to you</h3>
+										<div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+										<img src="C:\Users\ACER\Pictures\flight.1.jpg"alt="flight"width="100%"img="responsive">
+										<h2>Lufthansa Charter</h2>
+										<p>Book your own customised flights for your company, club or event with Lufthansa Charter.</p><br><br>
+										<a href="#"><span class="glyphicon glyphicon-arrow-right">To Lufthansa Charter</span></a>
+								</div>
+									
+										<div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+										<img src="C:\Users\ACER\Pictures\flight 2.jpg"alt="flight"width="100%"img="responsive">
+										<h2>Group travel</h2>
+										<p>You can enquire about travel for groups of ten people or more on lufthansa.com and book the best possible price</p><br>
+										<a href="#"><span class="glyphicon glyphicon-arrow-right">To Group travel</span></a>
+								</div>	
+										
+								</div>
+								</div>
+					
+						</section>	
+							<section class="hmfoot"><!--Home page Footer-->
+				<footer class="fotcolor"><!--Footer Color-->
+					
+										<div class="container a12">
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fot1row"><!--footer first row-->
+													<form>
+														<div class="col-sm-3">
+															<input type="text" class="form-control fotform " placeholder="Enter Search Term"><!--footer form-->
+														</div>
+													</form>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+													<h4 class="fothead"><b>Frequently visited pages</b></h4><!--Footer heading-->
+													<button type="button" class="btn btn-default fotbtn" data-target="#hi">View & Amend Flights</button><br><!--footer button-->
+													<a href="https://www.w3schools.com/css/css_link.asp" id="hi"></a>
+													<button type="button" class="btn btn-default fotbtn">Offers & Destination</button><br>
+													<button type="button" class="btn btn-default fotbtn">Baggage</button><br>
+													<button type="button" class="btn btn-default fotbtn">Check-In</button><br>
+													<button type="button" class="btn btn-default fotbtn">At The Airport</button><br>
+													<button type="button" class="btn btn-default fotbtn">travel Briefing</button><br>
+													<button type="button" class="btn btn-default fotbtn">Destinationns</button><br>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+													<h4 class="fothead"><b>Customer services</b></h4><!--Footer heading-->
+													<button type="button" class="btn btn-default fotbtn">Travel ID Account</button><br>
+													<button type="button" class="btn btn-default fotbtn">Miles & More</button><br>
+													<button type="button" class="btn btn-default fotbtn">Help & Contact</button><br>
+													<button type="button" class="btn btn-default fotbtn">Feedback</button><br>
+													<button type="button" class="btn btn-default fotbtn">Newsletter</button><br>
+													<button type="button" class="btn btn-default fotbtn">Accessible Travel</button><br>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+													<h4 class="fothead"><b>Lufthansa Group</b></h4><!--Footer heading-->
+													<button type="button" class="btn btn-default fotbtn">jobs & Careers</button><br>
+													<button type="button" class="btn btn-default fotbtn">Aviation Group</button><br>
+													<button type="button" class="btn btn-default fotbtn">Lufthansa Group Airlines</button><br>
+													<button type="button" class="btn btn-default fotbtn">Press</button><br>
+													<button type="button" class="btn btn-default fotbtn">Lufthansa partners</button><br>
+													<button type="button" class="btn btn-default fotbtn">Sustainability</button><br>
+												</div>
+												<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+													<h4 class="fothead"><b>Corporate customers</b></h4><!--Footer heading-->
+													<button type="button" class="btn btn-default fotbtn">For Travel Agent</button><br>
+													<button type="button" class="btn btn-default fotbtn">For Coporate Customer</button><br>
+													<button type="button" class="btn btn-default fotbtn">Coporate Bonus Program</button><br>	
+												</div>
+											</div>
+										</div>
+									</footer>
+								</section>
+
+							
+<body>
+</html>

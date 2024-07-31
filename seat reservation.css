@@ -1,0 +1,101 @@
+.navcol{/*<!--navcol (navbar color)-->*/
+	padding:15px;
+	background-color:#05164d;
+	color:white;
+	font-weight:bold;
+}
+.navbar-inverse .navbar-nav >li >a {
+	color:white;
+	font-weight: bold;
+}
+.hm1bpara{/*<!--Home page 1 banner-->*/
+	font-family: Montserrat, sans-serif; 
+	color:#05164d; 
+	font-weight:300;
+	padding-top:20px;
+}
+.hm1img{
+	padding-top:20px; 
+	padding-bottom:50px;
+}
+.hm1btn{
+	color:black;
+	padding:10px;
+	margin-top:20px;
+	width:200px;
+}
+.hmtabs{
+	padding-top:30px;
+}
+.hmtabct{
+	font-family: Montserrat, sans-serif; 
+	color:gray;
+	font-weight:500;
+}
+.hmpanl{/*<!--home page panel-->*/
+	padding:7px;
+	border:hidden;
+	border-top:solid;
+	border-bottom:solid;
+	border-width:1px;
+	border-color:gray;
+}
+.tabbtn{/*<!--Tabs Button-->*/
+	background-color:white;
+	color:#05164d;
+	border:2px groove #05164d;
+	border-radius:5px;
+	padding:10px;
+	font-family: Montserrat, sans-serif;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.tabbtn:hover{
+	background-color:#05164d;
+	color:white;
+}
+.hmdd{/*<!--home page drop down-->*/
+	background-color:#f2f2f2;
+}
+.hmgrppanl{
+	background-color:#f2f2f2;
+}
+.hmddti{
+	font-weight:bold;
+	padding:8px;
+	font-family: Montserrat, sans-serif;
+	color:#05164D;
+}
+.hmfoot{/*<!--Home page Footer-->*/
+	margin-top:40px;
+}
+.fotcolor{/*<!--Footer Color-->*/
+	background-color:#05164D;
+}
+.fot1row{/*<!--footer first row-->*/
+	padding-top:40px;
+}
+.fotform{
+	border:hidden;
+}
+.fot4head{/*<!--footer 4 headings-->*/
+	padding-top:30px;
+}
+.fothead{/*<!--Footer heading-->*/
+	font-family: Arvo, serif; 
+	color:white;
+	border-bottom:solid;
+	border-color:white;
+}
+.fotbtn{
+	background-color:#05164D;
+	border:hidden;
+	font-family: Arvo, serif; 
+	color:white;
+}
+.fotbtn:hover{
+	background-color:#05164D;
+	border:hidden;
+	color:white;
+}

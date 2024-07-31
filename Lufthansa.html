@@ -1,0 +1,505 @@
+ <html>
+	<head>
+		<title>Lufthansa</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="C:\Users\ACER\Desktop\full stack\projects\project\Lufthansa.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!---------------------------Navbar Start------------------------>
+		
+		<section>
+				<nav class="navbar navbar-inverse navbar-fixed-top navcol"> <!--navcol (navbar color)-->
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a href="file:///C:/Users/Dhamo/OneDrive/Desktop/Html/Lufthansa.html"><img src="C:\Users\ACER\Downloads\WhatsApp Image 2024-07-11 at 3.34.39 PM.jpeg" width="200px"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav navbar-right ">
+								<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\Lufthansa.html">Home</a></li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">Book & Prepare</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>Flights</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\flight Search (2).html">Book Flights</a></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\at the airport 1.html">At The Airport</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">My Bookings</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>Manage</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\seat reservation.html">Seat Reservation</a></li>
+										<li><a href="#">Manage Bookings</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown">Discover Lufthansa</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-header"><big>About Lufthansa</big><button type="button" class="close" data-dismiss="dropdown">&times;</button></li>
+										<li class="divider"></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\pro1.1.html">Check-In</a></li>
+										<li><a href="C:\Users\ACER\Desktop\full stack\projects\project\pro1.2.html">Explore The World</a></li>
+									</ul>
+								</li>
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+		</section>
+		
+		<!---------------------------Navbar Ends------------------------>
+		
+		
+		<!---------------------------Entrance Img Start------------------------>
+		
+		<section class="home banner">
+			<div class="home image">
+				<img src="https://www.lufthansa.com/content/dam/lh/images/local_images/homepage/stage-teasers/borabora_desktop_1295228783_1440x500.png.transform/lh-dcep-transform-width-1440/img.jpg" alt="Flight" width="100%">
+			</div>
+			<div class="container hmtabs"> <!--hmtabs (home image tab)-->
+				<ul class="nav nav-tabs hmtabct"> <!--hmtabct (home image tab content)-->
+					<li><a data-toggle="tab" href="#flights" class="hmtabct2"><img src="C:\Users\ACER\Downloads\flight.png"> Flights</a></li>
+					<li><a data-toggle="tab" href="#rentalcar" class="hmtabct2"><img src="C:\Users\ACER\Downloads\car.png"> Rental Car</a></li>
+					<li><a data-toggle="tab" href="#hotel" class="hmtabct2"><img src="C:\Users\ACER\Downloads\hotel.png"> Hotel</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="flights" class="tab-pane fade in active">
+					    <form class="form-inline flicnt1"> <!--flicnt1 (flight content 1)-->
+							<div class="form-group">
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle tabdrd" type="button" data-toggle="dropdown">Round Trip <!--tabdrd (tab dropdown)-->
+									<span class="caret"></span></button>
+									<ul class="dropdown-menu">
+										<li><a href="#">Round Trip</a></li>
+										<li><a href="#">One-Way</a></li>
+										<li><a href="#">Multi-Cities</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="form-group flicntitem">  <!--flicntitem (flight content item)-->
+								<div class="checkbox ">
+									</label><input type ="checkbox">&nbsp Nonstop-only</label>
+								</div>
+							</div>
+						</form>
+						<form class="form-inline flicnt2"> <!--flicnt2 (flight content 2)-->
+							<div class="form-group">
+								<input type="text" class="form-control flin" placeholder="Chennai"><!--flin flight input-->
+							</div>
+							<span class="glyphicon glyphicon-transfer"></span>
+							<div class="form-group">
+								<input type="text" class="form-control flin" placeholder="To"><!--flin flight input-->
+							</div>
+							<div class="form-group">
+								<input type="date" class="form-control flin" placeholder="Departure-Return"><!--flin flight input-->
+							</div>
+							<div class="form-group">
+								<button type="button" class="btn btn-warning">Search Flights</button>
+							</div>
+						</form>
+						<h4 style="display:inline;" class="tblt">Redeem miles for award flights</h4>&nbsp&nbsp&nbsp&nbsp <!--tblt tab last-->
+						<h4 style="display:inline;" class="text-muted tblt"><a class="text-muted">Search award flights</a></h4> <!--tblt tab last-->
+					</div>
+					<div id="rentalcar" class="tab-pane fade">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-sm-12" for="email"><input type="checkbox">&nbsp Drop Of Car To Different Location</label>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input type="text" class="form-control" placeholder="Search for Location" style="border:none;">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-6">
+									<label>Pick-Up Date: &nbsp<input type="date" style="border:none;"> Time: &nbsp<input type="time" style="border:none;"></label>
+								</div>
+								<div class="col-sm-6">
+									<label>Drop-off Date: &nbsp<input type="date" style="border:none;"> Time: &nbsp<input type="time" style="border:none;"></label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-12"><input type="checkbox">&nbsp Driver aged between 30 - 69</label>
+							</div>
+							<div class="form-group">
+								<label class="col-sm-12">I Live In<select><option>India</option><option>Canada</option><option> Australia</option><option>South Korea</option><option>Europe</option><option>Japan</option><option>Russia</option></select></label>
+							</div>
+							<div class="form-group">
+								<button type="button" class="btn btn-warning col-sm-12">Submit</button>
+							</div>
+							<p><b>You will be entering your data for this reservation directly into the external car rental platform of Meili Travel Technology Ltd. (Ireland) which is displayed in our website. Please see the privacy policy of Meili Travel Technology Ltd. for more information on the handling of your personal data. Please also note that the actual reservation will be directly with the respective car rental provider.</b></p>
+						</form>
+					</div>
+					<div id="hotel" class="tab-pane fade">
+						<form class="form-inline httabs"><!--hotel tabs-->
+							<div class="form-group">
+								<input type="text" class="form-control htin" placeholder="Destination"><!--hotel input-->
+							</div>
+							<div class="form-group">
+								<label>&nbsp Check-in-date:</label>
+								<input type="date" class="form-control htin"><!--hotel input-->
+							</div>
+							<div class="form-group">
+								<label>&nbsp Check-out-date:</label>
+								<input type="date" class="form-control htin"><!--hotel input-->
+							</div>
+						</form>
+						<br>
+						<p><small>The contract for your accommodation is booked directly with our hotel partner Booking.com and separate to the Lufthansa flight booking.</small></p>
+						<button type="button" class="btn btn-warning" style="float:right;">Search Hotel</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------------Entrance Img Ends------------------------>
+		
+		<!---------------------------Drop Down Start-------------------------->
+		
+		<section class="ddtabs"> <!--Drop Down tabs-->
+			<div class="container">
+				<div class="row">
+					
+					<div class="dropdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<button class="btn btn-default ddlst" type="button" data-toggle="dropdown"><span><img src="D:\Program Image\Icons\user-check.svg" width="20px"></span> <big>Check-In</big> <!--Drop Down List-->
+						<span class="glyphicon glyphicon-plus"  style="float:right;"></span></button>
+						<ul class="dropdown-menu ddmenu"> <!--Drop Down Menu-->
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						</ul>
+					</div>
+					
+					
+					<div class="dropdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<button class="btn btn-default ddlst" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-plane"></span> <big>My Bookings</big> <!--Drop Down List-->
+						<span class="glyphicon glyphicon-plus"  style="float:right;"></span></button>
+						<ul class="dropdown-menu ddmenu"> <!--Drop Down Menu-->
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						</ul>
+					</div>
+					
+				
+					<div class="dropdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<button class="btn btn-default ddlst" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-collapse-down"></span> <big>Flight Status</big> <!--Drop Down List-->
+						<span class="glyphicon glyphicon-plus"  style="float:right;"></span></button>
+						<ul class="dropdown-menu ddmenu"> <!--Drop Down Menu-->
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						</ul>
+					</div>
+					
+					
+					<div class="dropdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<button class="btn btn-default ddlst" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-credit-card"></span> <big>Miles And More</big> <!--Drop Down List-->
+						<span class="glyphicon glyphicon-plus" style="float:right;"></span></button>
+						<ul class="dropdown-menu ddmenu"> <!--Drop Down Menu-->
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">JavaScript</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------------Drop Down Ends-------------------------->
+		
+		<!---------------------------Image Starts-------------------------->
+		
+		<section class="imgtabs"><!--Image tabs-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img2se">
+						<img src="https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-170254875-172715.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<img src="https://www.lufthansa.com/content/dam/lh/article-images/LH_Blog_Teaser_Assets_LHcom_Illustrationen.png.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------------Image Ends-------------------------->
+		
+		<!---------------------------Image Strats-------------------------->
+		
+		<section class="img4tabs"><!--Four Images tab-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+						<h2 style="font-family: Cutive Mono, monospace; font-weight:bold; color:#05164D;">Discover Futher Topics</h2>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+						<div class="img4"><!--4 images-->
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_images/profile/LH_Travel_ID_Visual_1440x617_21x9.png.transform/lh-dcep-transform-width-1440/img.jpg" width="100%  ">
+							<h5 style="font-family: Arvo, serif; color:#05164D;"><b>Travel ID</b></h5>
+							<p class="muted">Unlimited Access To Lufthansa Group Airlines And Miles & More.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 ">
+						<div class="img4"><!--4 images-->
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_images/homepage/lh-cash-and-miles-promo.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+							<h5  style="font-family: Arvo, serif; color:#05164D;"><b>Cash & Miles</b></h5>
+							<p class="muted">Redeem Your Miles Flexibly For Flights To your Dream Destination.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<div class="img4"><!--4 images-->
+							<img src="https://www.lufthansa.com/content/dam/lh/images/promos/lh_rental-car-promo-sixt_may_1440x617.png.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+							<h5  style="font-family: Arvo, serif; color:#05164D;"><b>Upto 3 Miles per EUR</b></h5>
+							<p class="muted">Award Miles Collector Rent SIXT And Earn Upto 3 miles Per EUR Spent.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<div class="img4"><!--4 images-->
+							<img src="https://www.lufthansa.com/content/dam/lh/images/local_variations/c-1317346499-genfly-stage-jun24.jpg.transform/lh-dcep-transform-width-1440/img.jpg" width="100%">
+							<h5  style="font-family: Arvo, serif; color:#05164D;"><b>Student Offer</b></h5>
+							<p class="muted">Enjoy Free Additional Check-in Baggage And Extra Saving With our Student Fair.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!---------------------------Image Ends-------------------------->
+		
+		<!--------------------------text starts------------------------->
+		
+		<section><!--Text Section-->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<h4 style="font-family: Arvo, serif; color:#05164D;"><span><img src="D:\Program Image\Icons\icons8-car-20.png"></span><b>&nbsp Your rental car</b></h4>
+						<p class="muted"><big>As a Lufthansa Customer, Enjoy Exclusive Benefits With Our partners.</big><p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<h4 style="font-family: Arvo, serif; color:#05164D;"><span><img src="D:\Program Image\Icons\plus-sign.svg" width="20px"></span><b>&nbsp Additional services</b></h4>
+						<p class="muted"><big>Make Your Journey Even More Comfortable With our Additional services.</big><p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<h4 style="font-family: Arvo, serif; color:#05164D;"><span><img src="D:\Program Image\Icons\icons8-bed-20.png"></span><b>&nbsp Your Hotel from Booking.com</b></h4>
+						<p class="muted"><big>our Hotel partner Offer your a range of accomodation world-wide at the best price</big><p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--------------------------text Ends------------------------->
+		
+			<!--------------------------Input Strats------------------------->
+			
+			<section class="hmsel"><!--Home Page Select-->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<h2 style="font-family: Cutive Mono, monospace; font-weight:bold; color:#05164D;">Flight Offers<span><select><option>Round Trip</option><option>One-Way</option></select></span>
+							From <span><select><option>Chennai</option><option>Goa</option><option> Ahmedabad</option><option>Delhi</option><option>Hyderabad</option><option>Kolkata</option><option>Mumbai</option></select></span></h2 >
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!--------------------------Input Ends------------------------->
+			
+			<!--------------------------corousel starts------------------------->
+			
+			<section class="hmcor"><!--home corousel-->
+				<div class="container">
+					<ul class="nav nav-tabs">
+						<li><a data-toggle="tab" href="#home" style="font-family: Arvo, serif; color:#05164D;"><big><b>Recommendataions</b></big></a></li>
+						<li><a data-toggle="tab" href="#menu1" style="font-family: Arvo, serif; color:#05164D;"><big><b>Best Seller</b></big></a></li>
+						<li><a data-toggle="tab" href="#menu2" style="font-family: Arvo, serif; color:#05164D;"><big><b>Favorite</b></big></a></li>
+					</ul>
+					<div class="tab-content">
+						<div id="home" class="tab-pane fade in active">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cordiv"><!--corousel division-->
+								<div class="corimg"><!--corousel Image-->
+									<img src="https://www.lufthansa.com/aircore/cache/images/64391/fra_1440.png" width="100%">
+									<h4 style="font-family: Arvo, serif; color:#05164D;">Frankfart</h4>
+									<h4 style="font-family: Arvo, serif; color:#05164D; float:right;"><small>from</small> ₹97,200*</h4>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cordiv"><!--corousel division-->
+								<div class="corimg"><!--corousel Image-->
+									<img src="https://www.lufthansa.com/aircore/cache/images/65651/nyc_1440.png" width="100%">
+									<h4 style="font-family: Arvo, serif; color:#05164D;">Toranto</h4>
+									<h4 style="font-family: Arvo, serif; color:#05164D; float:right;"><small>from</small> ₹100020*</h4>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 cordiv"><!--corousel division-->
+								<div class="corimg"><!--corousel Image-->
+									<img src="https://www.lufthansa.com/aircore/cache/images/64091/dfw_1440.png" width="100%">
+									<h4 style="font-family: Arvo, serif; color:#05164D;">Califonia</h4>
+									<h4 style="font-family: Arvo, serif; color:#05164D; float:right;"><small>from</small> ₹321000*</h4>
+								</div>
+							</div>
+						</div>
+						<div id="menu1" class="tab-pane fade">
+							<div>
+								<img src="">
+							</div>
+							<div>
+								<img src="">
+							</div>
+							<div>
+								<img src="">
+							</div>
+						</div>
+						<div id="menu2" class="tab-pane fade">
+							<div>
+								<img src="">
+							</div>
+							<div>
+								<img src="">
+							</div>
+							<div>
+								<img src="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!--------------------------corousel Ends--------------------------->
+			
+			<!--------------------------Condition starts------------------------->
+			
+			<section class="hmcon"><!---home page Condition-->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p class="muted"><small>*The prices incl. all taxes, fees, carrier surcharges may vary and serve as a guide for your selection.</small></p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<button type="button" class="btn btn-default conbtn" data-toggle="modal" data-target="#condition"><img src="D:\Program Image\Icons\terms-and-conditions.png" width="25px"><b><big>&nbsp Conditions</big></b></button><!--Condition button-->
+							<div id="condition" class="modal">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h3 class="modal-title" style="font-family: Cutive Mono, monospace; font-weight:bold; color:#05164D;">Genral Condition</h3>
+										</div>
+										<div class="modal-body">
+											<p class="muted" style="line-height:1.8; font-size:15px;">The prices displayed may vary and should serve as a guide for your selected journey. The prices apply to round or one way trips according to your selection. The end price is subject to change depending on the selected payment option. Seats are limited and may not be available on all days/flights. The fare might only be available during a special travel time and might not be available during holidays or other peak seasons. Fares include applicable fees, taxes and airport charges. Baggage might not be included in the end price. Additional baggage fees may apply. The fare might not be refundable or changeable. Minimum stay/maximum stay and/or advanced purchase might apply.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			
+			<!--------------------------Condition starts------------------------->
+			
+			<!--------------------------More Updates starts------------------------->
+			
+			<section class="hmmore"><!--home page more offer-->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<button type="button" class="btn btn-warning btn-lg" style="color:black; margin-bottom:20px;"><b>More Offers</b></button>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<h4><b>Payment Options</b></h4>
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\mastercard.svg" width="30px"></a><!--More Icons-->
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\visa.svg" width="30px;"></a><!--More Icons-->
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\paypal.svg" width="30px;"></a><!--More Icons-->
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\american-express-credit-card.svg" width="30px;"></a><!--More Icons-->
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<h4><b>Follow us</b></h4>
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\instagram.svg" width="30px;"></a><!--More Icons-->
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\facebook.svg" width="30px;"></a><!--More Icons-->
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\youtube.svg" width="30px;"></a><!--More Icons-->
+							<a href="#" class="moicon"><img src="D:\Program Image\Icons\twitter.svg" width="30px;"></a><!--More Icons-->
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!--------------------------More Updates Ends---------------------------------->
+			
+			<!--------------------------Footer Starts---------------------------------->
+			
+			<section class="hmfoot"><!--Home page Footer-->
+				<footer class="fotcolor"><!--Footer Color-->
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fot1row"><!--footer first row-->
+								<form>
+									<div class="col-sm-3">
+										<input type="text" class="form-control fotform " placeholder="Enter Search Term"><!--footer form-->
+									</div>
+								</form>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Frequently visited pages</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn" data-target="#hi">View & Amend Flights</button><br><!--footer button-->
+								<a href="https://www.w3schools.com/css/css_link.asp" id="hi"></a>
+								<button type="button" class="btn btn-default fotbtn">Offers & Destination</button><br>
+								<button type="button" class="btn btn-default fotbtn">Baggage</button><br>
+								<button type="button" class="btn btn-default fotbtn">Check-In</button><br>
+								<button type="button" class="btn btn-default fotbtn">At The Airport</button><br>
+								<button type="button" class="btn btn-default fotbtn">travel Briefing</button><br>
+								<button type="button" class="btn btn-default fotbtn">Destinationns</button><br>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Customer services</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn">Travel ID Account</button><br>
+								<button type="button" class="btn btn-default fotbtn">Miles & More</button><br>
+								<button type="button" class="btn btn-default fotbtn">Help & Contact</button><br>
+								<button type="button" class="btn btn-default fotbtn">Feedback</button><br>
+								<button type="button" class="btn btn-default fotbtn">Newsletter</button><br>
+								<button type="button" class="btn btn-default fotbtn">Accessible Travel</button><br>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Lufthansa Group</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn">jobs & Careers</button><br>
+								<button type="button" class="btn btn-default fotbtn">Aviation Group</button><br>
+								<button type="button" class="btn btn-default fotbtn">Lufthansa Group Airlines</button><br>
+								<button type="button" class="btn btn-default fotbtn">Press</button><br>
+								<button type="button" class="btn btn-default fotbtn">Lufthansa partners</button><br>
+								<button type="button" class="btn btn-default fotbtn">Sustainability</button><br>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 fot4head"><!--footer 4 headings-->
+								<h4 class="fothead"><b>Corporate customers</b></h4><!--Footer heading-->
+								<button type="button" class="btn btn-default fotbtn">For Travel Agent</button><br>
+								<button type="button" class="btn btn-default fotbtn">For Coporate Customer</button><br>
+								<button type="button" class="btn btn-default fotbtn">Coporate Bonus Program</button><br>	
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+			
+			<!--------------------------Footer Ends---------------------------------->
+			
+	</body>
+</html>
+		  
